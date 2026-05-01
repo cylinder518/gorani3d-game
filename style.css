@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+#ui {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: white;
+  background: rgba(0,0,0,0.5);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
