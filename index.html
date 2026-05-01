@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>고라니 키우기</title>
+  <style>
+    body { margin: 0; overflow: hidden; }
+    #ui {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: white;
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <div id="ui">
+    <p id="status">배고픔: 50 | 행복: 50</p>
+    <button onclick="feed()">먹이주기</button>
+    <button onclick="play()">놀기</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.158.0/build/three.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
